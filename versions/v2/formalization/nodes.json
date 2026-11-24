@@ -1,0 +1,316 @@
+{
+  "nodes": [
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s1",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "Let $H(x)=\\sum_{j\\geq1}b_jx^j/j!$ with $b_j\\in\\mathbb Z$, and write\n$\\ex(H(x))=\\sum_{n\\geq0}u_nx^n/n!$.\nThen all $u_n$ are integers. For $M\\geq1$ and $b_1=t\\in\\mathbb Z$,\n\\[\n \\bigl(\\forall n\\geq0,\\ u_n\\equiv t^n\\pmod M\\bigr)\n \\quad\\Longleftrightarrow\\quad\n \\bigl(\\forall j\\geq2,\\ M\\mid b_j\\bigr),\n\\]\nwith $t^0=1$ even when $t=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s2",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every integer $m\\geq2$,\n\\begin{equation}\n 6m^m\\mid(m^2)!.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s3",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "The coefficients in \\eqref{eq:square} satisfy $a_n\\in\\mathbb Z$ and\n$a_n\\equiv1\\pmod6$ for every integer $n\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s4",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, $v_n\\in\\mathbb Z$ and $v_n\\equiv1\\pmod3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s5",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, $z_n\\in\\mathbb Z$ and $z_n\\equiv1\\pmod{30}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s6",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For any integers $t,w_2,w_3,\\ldots$, let\n$u_n=n![x^n]\\exp(tx+\\sum_{m\\geq2}w_m x^{m^2}/m^m)$.\nThen $u_n\\in\\mathbb Z$ and $u_n\\equiv t^n\\pmod6$ for all $n\\geq0$.\nMoreover, $u_n\\equiv t^n\\pmod{30}$ for every $n\\geq0$\nif and only if $5\\mid w_2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s7",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For all integers $n,r\\geq1$, with\n$\\operatorname{rad}(n)=\\prod_{p\\mid n}p$ and $\\operatorname{rad}(1)=1$,\n\\[\n \\sigma_r(n)=\n \\frac{\\sigma(n^r\\operatorname{rad}(n)^{r-1})}\n      {\\sigma(\\operatorname{rad}(n)^{r-1})}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s8",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "The following statements recorded in A023887 hold:\n\\begin{enumerate}\n\\item $s_n=\\prod_{p^a\\parallel n}(p^{n(a+1)}-1)/(p^n-1)$;\n$s_n$ is odd exactly when $n$ is a square or twice a square.\n\\item As formal power series,\n\\[\n \\sum_{n\\geq1}s_nx^n=\\sum_{d\\geq1}\\frac{(dx)^d}{1-(dx)^d}.\n\\]\nFor $D(x)=\\exp(\\sum_{n\\geq1}s_nx^n/n)$, we have\n\\[\n D(x)=\\prod_{d\\geq1}(1-d^dx^d)^{-1/d},\\qquad\n xD'(x)/D(x)=\\sum_{n\\geq1}s_nx^n.\n\\]\n\\item $1\\leq s_n/n^n\\leq1+n2^{-n}$, so $s_n\\sim n^n$\nand $\\sum_{n\\geq1}1/s_n$ converges.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    }
+  ]
+}

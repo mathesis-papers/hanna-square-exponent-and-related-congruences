@@ -1,0 +1,65 @@
+{
+  "arithmetic": "exact integers and fractions.Fraction",
+  "divisor_parity_and_asymptotic_bound": {
+    "n": [
+      1,
+      512
+    ]
+  },
+  "partition_and_expanding_product": {
+    "A023881_prefix_terms": 12,
+    "indices": [
+      0,
+      24
+    ]
+  },
+  "radical_identity": {
+    "n": [
+      1,
+      128
+    ],
+    "pairs": 1024,
+    "r": [
+      1,
+      8
+    ]
+  },
+  "scope": "Finite identities and examples; all-index statements have written proofs in note.tex.",
+  "status": "pass",
+  "transfer_gcd_examples": {
+    "indices": [
+      0,
+      32
+    ],
+    "linear_coefficients": [
+      -2,
+      0,
+      3
+    ]
+  },
+  "weighted_square_examples": {
+    "examples": 25,
+    "integer_recurrence_indices": [
+      0,
+      64
+    ],
+    "linear_coefficients": [
+      -3,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "rational_product_indices": [
+      0,
+      24
+    ],
+    "second_weights": [
+      -5,
+      -1,
+      0,
+      2,
+      5
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 85103,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48",
+      "sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48"
+    },
+    "source": {
+      "bytes": 15989,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd",
+      "sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "For Paul D. Hanna's conjecture in OEIS A226838, revision 14, FORMULA, we prove that every factorial-normalized coefficient of exp(sum_{m>=1} x^(m^2)/m^m) is an integer congruent to one modulo six by Carlitz's coefficient recurrence, and extend Sela Fried's Theorem 3 (2025, page 3) on Yanev's divisor-sum identity to all positive exponents. The same argument proves the modulo-three and modulo-thirty conjectures in A226839 and A226890, with all three uniform moduli optimal. A necessary and sufficient coefficient criterion gives a sharp weighted extension; the linked divisor-sum entry's elementary identities also follow.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 85103,
+      "sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48",
+      "url": "/api/v1/collected-papers/hanna-square-exponent-and-related-congruences/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-24T02:43:41.407227852Z",
+    "record": "hanna-square-exponent-and-related-congruences",
+    "repository_name": "hanna-square-exponent-and-related-congruences",
+    "source": {
+      "bytes": 15989,
+      "sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd",
+      "url": "/api/v1/collected-papers/hanna-square-exponent-and-related-congruences/files/source?version=2"
+    },
+    "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-24T02:43:41.407227852Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "hanna-square-exponent-and-related-congruences"
+  }
+}

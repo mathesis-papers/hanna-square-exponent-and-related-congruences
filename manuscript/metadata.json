@@ -1,0 +1,19 @@
+{
+  "id": "hanna-square-exponent-and-related-congruences",
+  "revision": 2,
+  "problem_ids": [
+    "oeis-a226838-square-egf-mod-six",
+    "oeis-a226839-triangular-egf-mod-three",
+    "oeis-a023887-yanev-sigma-radical-identity"
+  ],
+  "topic": "Hanna's square-exponent congruence modulo six, its two companion congruences, and Yanev's general divisor-sum radical identity extending Fried's exponent-two case",
+  "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+  "creators": [
+    {"name": "Haobo Ma", "affiliation": "ChronoAI Pte Ltd, Singapore"},
+    {"name": "Wenlin Zhang", "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"}
+  ],
+  "abstract": "For Paul D. Hanna's conjecture in OEIS A226838, revision 14, FORMULA, we prove that every factorial-normalized coefficient of exp(sum_{m>=1} x^(m^2)/m^m) is an integer congruent to one modulo six by Carlitz's coefficient recurrence, and extend Sela Fried's Theorem 3 (2025, page 3) on Yanev's divisor-sum identity to all positive exponents. The same argument proves the modulo-three and modulo-thirty conjectures in A226839 and A226890, with all three uniform moduli optimal. A necessary and sufficient coefficient criterion gives a sharp weighted extension; the linked divisor-sum entry's elementary identities also follow.",
+  "summary": "All-index written proofs of the congruences in A226838 modulo six, A226839 modulo three, and A226890 modulo thirty, with a necessary and sufficient transfer criterion, optimal moduli and a sharp weighted extension. Yanev's positive-exponent radical identity extends Fried's earlier exponent-two theorem. Three pinned Lean declarations state the two original rational-series congruences and the multiplied-out radical identity; the other statements have written proofs. Exact finite coefficient and divisor checks accompany the note.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+}
